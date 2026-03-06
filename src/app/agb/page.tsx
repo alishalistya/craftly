@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "AGB – Allgemeine Geschäftsbedingungen",
-  description: "Allgemeine Geschäftsbedingungen von Craftly.",
+  description: "Allgemeine Geschäftsbedingungen von Dein Lagerhelfer.",
 };
 
 export default function AGBPage() {
@@ -20,7 +20,7 @@ export default function AGBPage() {
             </h2>
             <p>
               Diese Allgemeinen Gesch&auml;ftsbedingungen gelten f&uuml;r die
-              Nutzung der Plattform Craftly, betrieben von der Craftly GmbH
+              Nutzung der Plattform Dein Lagerhelfer, betrieben von der Dein Lagerhelfer GmbH
               (i.Gr.), Musterstra&szlig;e 12, 80331 M&uuml;nchen.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function AGBPage() {
               2. Leistungsbeschreibung
             </h2>
             <p>
-              Craftly stellt eine webbasierte Lagerverwaltung f&uuml;r
+              Dein Lagerhelfer stellt eine webbasierte Lagerverwaltung f&uuml;r
               Handwerksbetriebe zur Verf&uuml;gung. Die Grundfunktionen sind
               kostenlos nutzbar.
             </p>
@@ -41,7 +41,7 @@ export default function AGBPage() {
               3. Registrierung und Nutzerkonto
             </h2>
             <p>
-              F&uuml;r die Nutzung von Craftly ist eine Registrierung
+              F&uuml;r die Nutzung von Dein Lagerhelfer ist eine Registrierung
               erforderlich. Der Nutzer ist verpflichtet, wahrheitsgem&auml;&szlig;e
               Angaben zu machen und seine Zugangsdaten vertraulich zu behandeln.
             </p>
@@ -52,7 +52,7 @@ export default function AGBPage() {
               4. Verf&uuml;gbarkeit
             </h2>
             <p>
-              Craftly strebt eine m&ouml;glichst hohe Verf&uuml;gbarkeit an.
+              Dein Lagerhelfer strebt eine m&ouml;glichst hohe Verf&uuml;gbarkeit an.
               Ein Anspruch auf unterbrechungsfreie Verf&uuml;gbarkeit besteht
               nicht. Wartungsarbeiten werden nach M&ouml;glichkeit vorab
               angek&uuml;ndigt.
@@ -77,7 +77,7 @@ export default function AGBPage() {
               6. Haftung
             </h2>
             <p>
-              Craftly haftet nur f&uuml;r Sch&auml;den, die auf Vorsatz oder
+              Dein Lagerhelfer haftet nur f&uuml;r Sch&auml;den, die auf Vorsatz oder
               grobe Fahrl&auml;ssigkeit zur&uuml;ckzuf&uuml;hren sind.
               Die Haftung f&uuml;r leichte Fahrl&auml;ssigkeit ist
               ausgeschlossen, soweit gesetzlich zul&auml;ssig.

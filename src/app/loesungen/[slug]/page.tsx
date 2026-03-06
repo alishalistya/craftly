@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!trade) return {};
   return {
     title: `${trade.name} – Lagerverwaltung für ${trade.shortName}`,
-    description: `Craftly für ${trade.shortName}: ${trade.heroDescription.slice(0, 140)}`,
+    description: `Dein Lagerhelfer für ${trade.shortName}: ${trade.heroDescription.slice(0, 140)}`,
   };
 }
 
@@ -70,8 +70,8 @@ export default async function TradePage({ params }: Props) {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeader
             label="Materialien"
-            title="Was Sie mit Craftly verwalten"
-            subtitle={`Typische Materialien im ${trade.shortName === "Alle Gewerke" ? "Handwerk" : trade.shortName + "-Bereich"}, die Sie mit Craftly organisieren können.`}
+            title="Was Sie mit Dein Lagerhelfer verwalten"
+            subtitle={`Typische Materialien im ${trade.shortName === "Alle Gewerke" ? "Handwerk" : trade.shortName + "-Bereich"}, die Sie mit Dein Lagerhelfer organisieren können.`}
           />
           <div className="max-w-3xl mx-auto">
             <FadeUp>
@@ -95,7 +95,7 @@ export default async function TradePage({ params }: Props) {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeader
             label="Vorteile"
-            title={`So hilft Craftly ${trade.shortName === "Alle Gewerke" ? "Ihrem Betrieb" : "im " + trade.shortName + "-Betrieb"}`}
+            title={`So hilft Dein Lagerhelfer ${trade.shortName === "Alle Gewerke" ? "Ihrem Betrieb" : "im " + trade.shortName + "-Betrieb"}`}
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {trade.benefits.map((benefit) => (

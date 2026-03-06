@@ -117,7 +117,7 @@ export const benefits: Benefit[] = [
     icon: "fa-feather",
     title: "Kinderleicht",
     description:
-      "Intuitive Bedienung ohne Schulung. Wenn Sie WhatsApp k\u00f6nnen, k\u00f6nnen Sie Craftly.",
+      "Intuitive Bedienung ohne Schulung. Wenn Sie WhatsApp k\u00f6nnen, k\u00f6nnen Sie Dein Lagerhelfer.",
     bgColor: "bg-blue-100",
     iconColor: "text-blue-600",
   },
@@ -147,5 +147,5 @@ export interface Stat {
 export const stats: Stat[] = [
   { value: "1 Mio.", label: "Handwerksbetriebe in Deutschland" },
   { value: "70%", label: "ohne digitale Lagerl\u00f6sung" },
-  { value: "0 \u20ac", label: "kostet Craftly \u2013 f\u00fcr immer" },
+  { value: "0 \u20ac", label: "kostet Dein Lagerhelfer \u2013 f\u00fcr immer" },
 ];

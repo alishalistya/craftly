@@ -8,14 +8,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Kontakt – Sprechen Sie mit uns",
   description:
-    "Haben Sie Fragen zu Craftly? Schreiben Sie uns – wir melden uns schnell und persönlich bei Ihnen.",
+    "Haben Sie Fragen zu Dein Lagerhelfer? Schreiben Sie uns – wir melden uns schnell und persönlich bei Ihnen.",
 };
 
 const contactInfo = [
   {
     icon: "fa-envelope",
     title: "E-Mail",
-    value: "hallo@craftly.de",
+    value: "hallo@deinlagerhelfer.de",
     description: "Wir antworten in der Regel innerhalb von 24 Stunden.",
   },
   {

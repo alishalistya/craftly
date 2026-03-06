@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Icon from "@/components/ui/Icon";
+import Logo from "@/components/ui/Logo";
 import { footerNavSections } from "@/data/navigation";
 
 export default function Footer() {
@@ -9,9 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-10">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="text-2xl font-extrabold text-white mb-3 block">
-              Craft<span className="text-brand">ly</span>
-            </Link>
+            <Logo variant="light" className="mb-3" />
             <p className="text-sm leading-relaxed mb-4">
               Die kostenlose Lagerverwaltung f&uuml;r das deutsche Handwerk.
               Einfach, digital und immer griffbereit.
@@ -43,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-dark-lighter pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm">
-          <span>&copy; {new Date().getFullYear()} Craftly. Alle Rechte vorbehalten.</span>
+          <span>&copy; {new Date().getFullYear()} Dein Lagerhelfer. Alle Rechte vorbehalten.</span>
           <span>
             Mit <Icon name="fa-heart" className="text-brand mx-1" /> f&uuml;r
             das Handwerk gemacht.

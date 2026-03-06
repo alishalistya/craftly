@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Datenschutzerklärung",
-  description: "Datenschutzerklärung von Craftly – Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
+  description: "Datenschutzerklärung von Dein Lagerhelfer – Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
 };
 
 export default function DatenschutzPage() {
@@ -35,13 +35,13 @@ export default function DatenschutzPage() {
               ist:
             </p>
             <p className="mt-2">
-              Craftly GmbH (i.Gr.)
+              Dein Lagerhelfer GmbH (i.Gr.)
               <br />
               Musterstra&szlig;e 12
               <br />
               80331 M&uuml;nchen
               <br />
-              E-Mail: datenschutz@craftly.de
+              E-Mail: datenschutz@deinlagerhelfer.de
             </p>
           </div>
 

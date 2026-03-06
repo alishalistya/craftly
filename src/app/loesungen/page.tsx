@@ -8,7 +8,7 @@ import { trades } from "@/data/trades";
 export const metadata: Metadata = {
   title: "Lösungen für Gewerke – Lagerverwaltung für jedes Handwerk",
   description:
-    "Craftly passt sich Ihrem Gewerk an: Elektriker, SHK, Maler, Schreiner und mehr. Entdecken Sie, wie Craftly Ihrem Handwerksbetrieb hilft.",
+    "Dein Lagerhelfer passt sich Ihrem Gewerk an: Elektriker, SHK, Maler, Schreiner und mehr. Entdecken Sie, wie Dein Lagerhelfer Ihrem Handwerksbetrieb hilft.",
 };
 
 export default function LoesungenPage() {
@@ -17,7 +17,7 @@ export default function LoesungenPage() {
       <PageHero
         label="Lösungen"
         title="Für jedes <span class='text-brand'>Gewerk</span> die richtige Lösung"
-        subtitle="Craftly versteht die Anforderungen verschiedener Handwerksberufe. Entdecken Sie, wie Craftly speziell Ihrem Betrieb hilft."
+        subtitle="Dein Lagerhelfer versteht die Anforderungen verschiedener Handwerksberufe. Entdecken Sie, wie Dein Lagerhelfer speziell Ihrem Betrieb hilft."
       />
 
       <section className="py-24">

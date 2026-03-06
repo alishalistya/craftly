@@ -27,7 +27,7 @@ export default function HomePage() {
             </FadeUp>
             <FadeUp>
               <p className="text-lg text-text-muted mb-8 max-w-lg mx-auto lg:mx-0">
-                Craftly ist die kostenlose Lagerverwaltung, die speziell f&uuml;r
+                Dein Lagerhelfer ist die kostenlose Lagerverwaltung, die speziell f&uuml;r
                 Handwerksbetriebe entwickelt wurde. Schluss mit Zettelwirtschaft
                 &ndash; behalten Sie Ihr Material immer im Blick.
               </p>
@@ -86,7 +86,7 @@ export default function HomePage() {
           <SectionHeader
             label="Die L&ouml;sung"
             title="Alles, was Ihr Lager braucht"
-            subtitle="Craftly gibt Ihnen die Werkzeuge, um Ihr Material effizient zu verwalten &ndash; ohne Schulung, ohne Abo."
+            subtitle="Dein Lagerhelfer gibt Ihnen die Werkzeuge, um Ihr Material effizient zu verwalten &ndash; ohne Schulung, ohne Abo."
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {features.map((f) => (
@@ -129,8 +129,8 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeader
             label="Ihre Vorteile"
-            title="Warum Craftly?"
-            subtitle="Wir haben Craftly f&uuml;r Handwerker gebaut, die keine Zeit f&uuml;r komplizierte Software haben."
+            title="Warum Dein Lagerhelfer?"
+            subtitle="Wir haben Dein Lagerhelfer f&uuml;r Handwerker gebaut, die keine Zeit f&uuml;r komplizierte Software haben."
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((b) => (

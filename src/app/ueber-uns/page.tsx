@@ -6,9 +6,9 @@ import Icon from "@/components/ui/Icon";
 import CTASection from "@/components/sections/CTASection";
 
 export const metadata: Metadata = {
-  title: "Über uns – Das Team hinter Craftly",
+  title: "Über uns – Das Team hinter Dein Lagerhelfer",
   description:
-    "Wir bauen Craftly, weil wir überzeugt sind: Jeder Handwerksbetrieb verdient eine einfache, kostenlose Lagerverwaltung.",
+    "Wir bauen Dein Lagerhelfer, weil wir überzeugt sind: Jeder Handwerksbetrieb verdient eine einfache, kostenlose Lagerverwaltung.",
 };
 
 const values = [
@@ -28,13 +28,13 @@ const values = [
     icon: "fa-lock-open",
     title: "Kostenlos und ehrlich",
     description:
-      "Keine Tricks, kein Kleingedrucktes. Craftly ist kostenlos, weil wir glauben, dass grundlegende Werkzeuge für jeden zugänglich sein sollten.",
+      "Keine Tricks, kein Kleingedrucktes. Dein Lagerhelfer ist kostenlos, weil wir glauben, dass grundlegende Werkzeuge für jeden zugänglich sein sollten.",
   },
   {
     icon: "fa-comments",
     title: "Feedback-getrieben",
     description:
-      "Wir bauen Craftly nicht im stillen Kämmerlein. Unsere Nutzer bestimmen mit, welche Funktionen als Nächstes kommen.",
+      "Wir bauen Dein Lagerhelfer nicht im stillen Kämmerlein. Unsere Nutzer bestimmen mit, welche Funktionen als Nächstes kommen.",
   },
 ];
 
@@ -55,7 +55,7 @@ const timeline = [
     year: "2026",
     title: "Early Access",
     description:
-      "Craftly geht in die offene Frühphase. Handwerksbetriebe können sich registrieren und die erste Version nutzen.",
+      "Dein Lagerhelfer geht in die offene Frühphase. Handwerksbetriebe können sich registrieren und die erste Version nutzen.",
   },
   {
     year: "2026",
@@ -70,7 +70,7 @@ export default function UeberUnsPage() {
     <>
       <PageHero
         label="Über uns"
-        title="Wir bauen Craftly für<br />das <span class='text-brand'>Handwerk</span>"
+        title="Wir bauen Dein Lagerhelfer für<br />das <span class='text-brand'>Handwerk</span>"
         subtitle="Weil jeder Handwerksbetrieb eine einfache, kostenlose Lagerverwaltung verdient – ohne Kompromisse."
       />
 
@@ -91,7 +91,7 @@ export default function UeberUnsPage() {
             </FadeUp>
             <FadeUp>
               <p className="text-lg text-text-muted">
-                Craftly &auml;ndert das. Wir bauen eine Lagerverwaltung, die so
+                Dein Lagerhelfer &auml;ndert das. Wir bauen eine Lagerverwaltung, die so
                 einfach ist wie eine Handy-App &ndash; und f&uuml;r jeden
                 Handwerksbetrieb kostenlos zug&auml;nglich. Denn
                 Digitalisierung sollte kein Luxus sein, sondern
@@ -170,7 +170,7 @@ export default function UeberUnsPage() {
               </div>
               <h2 className="text-3xl font-extrabold mb-4">Ein kleines Team, gro&szlig;e Ambitionen</h2>
               <p className="text-text-muted mb-4">
-                Hinter Craftly steht ein kleines, engagiertes Team aus
+                Hinter Dein Lagerhelfer steht ein kleines, engagiertes Team aus
                 Produktentwicklern und Handwerks-Enthusiasten. Wir kennen die
                 Herausforderungen im Betrieb &ndash; und bauen L&ouml;sungen, die
                 wirklich helfen.

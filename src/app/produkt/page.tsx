@@ -11,7 +11,7 @@ import { produktFAQ } from "@/data/faq";
 export const metadata: Metadata = {
   title: "Produkt – Lagerverwaltung für Handwerksbetriebe",
   description:
-    "Entdecken Sie alle Funktionen von Craftly: Lagerverwaltung, Bestellungen, Inventur und Bestandsoptimierung – kostenlos für Handwerksbetriebe.",
+    "Entdecken Sie alle Funktionen von Dein Lagerhelfer: Lagerverwaltung, Bestellungen, Inventur und Bestandsoptimierung – kostenlos für Handwerksbetriebe.",
 };
 
 const produktFeatures = [
@@ -39,7 +39,7 @@ const produktFeatures = [
     title: "Bestellungen",
     subtitle: "Material nachbestellen leicht gemacht",
     description:
-      "Erstellen Sie Bestelllisten aus Ihrem aktuellen Bestand heraus. Craftly erkennt automatisch, welche Materialien unter den Mindestbestand gefallen sind, und schlägt Bestellungen vor.",
+      "Erstellen Sie Bestelllisten aus Ihrem aktuellen Bestand heraus. Dein Lagerhelfer erkennt automatisch, welche Materialien unter den Mindestbestand gefallen sind, und schlägt Bestellungen vor.",
     details: [
       "Automatische Bestellvorschläge",
       "Bestelllisten per E-Mail versenden",
@@ -56,7 +56,7 @@ const produktFeatures = [
     title: "Inventur",
     subtitle: "Digitale Inventur in Minuten",
     description:
-      "Vergessen Sie handgeschriebene Inventurlisten. Mit Craftly zählen Sie Ihre Bestände digital – per App oder am PC. Die Differenzen werden automatisch berechnet.",
+      "Vergessen Sie handgeschriebene Inventurlisten. Mit Dein Lagerhelfer zählen Sie Ihre Bestände digital – per App oder am PC. Die Differenzen werden automatisch berechnet.",
     details: [
       "Inventur per Smartphone starten",
       "Barcode-Scan für schnelles Zählen",
@@ -73,7 +73,7 @@ const produktFeatures = [
     title: "Bestandsoptimierung",
     subtitle: "Nie wieder zu viel oder zu wenig",
     description:
-      "Craftly analysiert Ihren Materialverbrauch und schlägt optimale Mindestbestände vor. So vermeiden Sie Überbestände, die Kapital binden, und Fehlbestände, die den Betrieb aufhalten.",
+      "Dein Lagerhelfer analysiert Ihren Materialverbrauch und schlägt optimale Mindestbestände vor. So vermeiden Sie Überbestände, die Kapital binden, und Fehlbestände, die den Betrieb aufhalten.",
     details: [
       "Verbrauchsanalyse je Material",
       "Mindestbestand automatisch vorschlagen",
@@ -98,7 +98,7 @@ export default function ProduktPage() {
       <PageHero
         label="Produkt"
         title="Ihre digitale<br /><span class='text-brand'>Lagerverwaltung</span>"
-        subtitle="Craftly gibt Ihrem Handwerksbetrieb die Werkzeuge, um Material effizient zu verwalten – einfach, übersichtlich und kostenlos."
+        subtitle="Dein Lagerhelfer gibt Ihrem Handwerksbetrieb die Werkzeuge, um Material effizient zu verwalten – einfach, übersichtlich und kostenlos."
         ctaText="Kostenlos starten"
         ctaHref="/kontakt"
         secondaryCtaText="Demo ansehen"
@@ -195,7 +195,7 @@ export default function ProduktPage() {
               </FadeUp>
               <FadeUp>
                 <p className="text-gray-300 mb-6">
-                  Craftly funktioniert auf jedem Gerät – Smartphone, Tablet und
+                  Dein Lagerhelfer funktioniert auf jedem Gerät – Smartphone, Tablet und
                   PC. Buchen Sie Material direkt auf der Baustelle, prüfen Sie
                   den Bestand im Transporter oder erstellen Sie Bestellungen vom
                   Büro aus.
@@ -226,8 +226,8 @@ export default function ProduktPage() {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeader
             label="Für wen?"
-            title="Craftly passt sich an"
-            subtitle="Egal ob Einmannbetrieb oder Mittelständler – Craftly wächst mit Ihren Anforderungen."
+            title="Dein Lagerhelfer passt sich an"
+            subtitle="Egal ob Einmannbetrieb oder Mittelständler – Dein Lagerhelfer wächst mit Ihren Anforderungen."
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {audiences.map((a) => (
@@ -251,7 +251,7 @@ export default function ProduktPage() {
           <SectionHeader
             label="Häufige Fragen"
             title="Fragen zum Produkt"
-            subtitle="Technische Fragen zu Craftly – kurz und verständlich beantwortet."
+            subtitle="Technische Fragen zu Dein Lagerhelfer – kurz und verständlich beantwortet."
           />
           <FAQAccordion items={produktFAQ} />
         </div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Impressum",
-  description: "Impressum der Craftly – Angaben gemäß § 5 TMG.",
+  description: "Impressum der Dein Lagerhelfer – Angaben gemäß § 5 TMG.",
 };
 
 export default function ImpressumPage() {
@@ -17,7 +17,7 @@ export default function ImpressumPage() {
               Angaben gem&auml;&szlig; &sect; 5 TMG
             </h2>
             <p>
-              Craftly GmbH (i.Gr.)
+              Dein Lagerhelfer GmbH (i.Gr.)
               <br />
               Musterstra&szlig;e 12
               <br />
@@ -32,7 +32,7 @@ export default function ImpressumPage() {
               Kontakt
             </h2>
             <p>
-              E-Mail: hallo@craftly.de
+              E-Mail: hallo@deinlagerhelfer.de
               <br />
               Telefon: +49 (0) 89 123 456 78
             </p>

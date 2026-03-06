@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { mainNavItems } from "@/data/navigation";
 import Icon from "@/components/ui/Icon";
+import Logo from "@/components/ui/Logo";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -33,9 +34,7 @@ export default function Header() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-[72px]">
-          <Link href="/" className="text-2xl font-extrabold text-text-primary">
-            Craft<span className="text-brand">ly</span>
-          </Link>
+          <Logo />
 
           {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-8">

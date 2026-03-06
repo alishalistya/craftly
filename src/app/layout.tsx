@@ -5,11 +5,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Craftly – Lagerverwaltung für Handwerker. Kostenlos.",
-    template: "%s | Craftly",
+    default: "Dein Lagerhelfer – Lagerverwaltung für Handwerker. Kostenlos.",
+    template: "%s | Dein Lagerhelfer",
   },
   description:
-    "Craftly ist die kostenlose digitale Lagerverwaltung für Handwerksbetriebe. Einfach. Übersichtlich. Ohne Abo.",
+    "Dein Lagerhelfer ist die kostenlose digitale Lagerverwaltung für Handwerksbetriebe. Einfach. Übersichtlich. Ohne Abo.",
 };
 
 export default function RootLayout({

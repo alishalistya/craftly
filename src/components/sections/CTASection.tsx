@@ -25,7 +25,7 @@ export default function CTASection() {
             </h2>
             <p className="text-lg text-text-muted mb-9">
               Tragen Sie sich in unsere Warteliste ein und geh&ouml;ren Sie zu
-              den Ersten, die Craftly nutzen k&ouml;nnen.
+              den Ersten, die Dein Lagerhelfer nutzen k&ouml;nnen.
             </p>
             {!submitted ? (
               <>

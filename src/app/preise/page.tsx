@@ -9,9 +9,9 @@ import { pricingTiers } from "@/data/pricing";
 import { pricingFAQ } from "@/data/faq";
 
 export const metadata: Metadata = {
-  title: "Preise – Craftly ist kostenlos",
+  title: "Preise – Dein Lagerhelfer ist kostenlos",
   description:
-    "Craftly ist und bleibt kostenlos. Keine versteckten Kosten, kein Abo, kein Kleingedrucktes. Lagerverwaltung für Handwerksbetriebe – ohne Risiko.",
+    "Dein Lagerhelfer ist und bleibt kostenlos. Keine versteckten Kosten, kein Abo, kein Kleingedrucktes. Lagerverwaltung für Handwerksbetriebe – ohne Risiko.",
 };
 
 export default function PreisePage() {
@@ -20,7 +20,7 @@ export default function PreisePage() {
       <PageHero
         label="Preise"
         title="Einfach. <span class='text-brand'>Kostenlos.</span>"
-        subtitle="Craftly ist für Handwerksbetriebe kostenlos. Kein Abo, keine versteckten Kosten, kein Kleingedrucktes. Einfach loslegen."
+        subtitle="Dein Lagerhelfer ist für Handwerksbetriebe kostenlos. Kein Abo, keine versteckten Kosten, kein Kleingedrucktes. Einfach loslegen."
       />
 
       <section className="py-24">
@@ -41,14 +41,14 @@ export default function PreisePage() {
           <SectionHeader
             label="Transparenz"
             title="Warum wir das können"
-            subtitle="Eine ehrliche Erklärung, warum Craftly kostenlos ist und bleiben kann."
+            subtitle="Eine ehrliche Erklärung, warum Dein Lagerhelfer kostenlos ist und bleiben kann."
           />
           <FadeUp>
             <div className="max-w-2xl mx-auto bg-white rounded-2xl border border-border p-10">
               <p className="text-text-muted mb-4">
-                Craftly befindet sich aktuell in der fr&uuml;hen Phase. Wir bauen das
+                Dein Lagerhelfer befindet sich aktuell in der fr&uuml;hen Phase. Wir bauen das
                 Produkt zusammen mit Handwerksbetrieben, die uns fr&uuml;hzeitig
-                Feedback geben. In dieser Phase ist Craftly vollst&auml;ndig
+                Feedback geben. In dieser Phase ist Dein Lagerhelfer vollst&auml;ndig
                 kostenlos.
               </p>
               <p className="text-text-muted mb-4">

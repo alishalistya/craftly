@@ -18,7 +18,7 @@ export const trades: Trade[] = [
     icon: "fa-bolt",
     color: "from-blue-500 to-blue-600",
     heroDescription:
-      "Kabel, Klemmen, Sicherungen, Z\u00e4hler \u2013 im Elektrohandwerk gibt es hunderte Kleinteile, die verwaltet werden m\u00fcssen. Craftly hilft Ihnen, den \u00dcberblick zu behalten.",
+      "Kabel, Klemmen, Sicherungen, Z\u00e4hler \u2013 im Elektrohandwerk gibt es hunderte Kleinteile, die verwaltet werden m\u00fcssen. Dein Lagerhelfer hilft Ihnen, den \u00dcberblick zu behalten.",
     problems: [
       {
         title: "Unz\u00e4hlige Kleinteile",
@@ -60,7 +60,7 @@ export const trades: Trade[] = [
     icon: "fa-faucet-drip",
     color: "from-cyan-500 to-cyan-600",
     heroDescription:
-      "Rohre, Fittings, Ventile, Kessel \u2013 SHK-Betriebe haben ein breites Materialsortiment. Craftly bringt Ordnung in Ihr Lager und auf die Baustelle.",
+      "Rohre, Fittings, Ventile, Kessel \u2013 SHK-Betriebe haben ein breites Materialsortiment. Dein Lagerhelfer bringt Ordnung in Ihr Lager und auf die Baustelle.",
     problems: [
       {
         title: "Breites Sortiment",
@@ -102,7 +102,7 @@ export const trades: Trade[] = [
     icon: "fa-paint-roller",
     color: "from-rose-500 to-rose-600",
     heroDescription:
-      "Farben, Lacke, Grundierungen, Werkzeuge \u2013 im Malerhandwerk kommt es auf die richtigen Materialien in der richtigen Menge an. Craftly hilft bei der \u00dcbersicht.",
+      "Farben, Lacke, Grundierungen, Werkzeuge \u2013 im Malerhandwerk kommt es auf die richtigen Materialien in der richtigen Menge an. Dein Lagerhelfer hilft bei der \u00dcbersicht.",
     problems: [
       {
         title: "Farbvorr\u00e4te im Blick behalten",
@@ -144,7 +144,7 @@ export const trades: Trade[] = [
     icon: "fa-hammer",
     color: "from-amber to-amber-dark",
     heroDescription:
-      "Holz, Platten, Beschl\u00e4ge, Leime \u2013 in der Schreinerei ist die Materialvielfalt gro\u00df. Craftly hilft Ihnen, Ihr Lager effizient zu verwalten.",
+      "Holz, Platten, Beschl\u00e4ge, Leime \u2013 in der Schreinerei ist die Materialvielfalt gro\u00df. Dein Lagerhelfer hilft Ihnen, Ihr Lager effizient zu verwalten.",
     problems: [
       {
         title: "Holz- und Plattenvorr\u00e4te",
@@ -186,7 +186,7 @@ export const trades: Trade[] = [
     icon: "fa-wrench",
     color: "from-gray-600 to-gray-700",
     heroDescription:
-      "Egal welches Gewerk \u2013 wo Material verwaltet werden muss, hilft Craftly. Einfach, digital und kostenlos f\u00fcr jeden Handwerksbetrieb.",
+      "Egal welches Gewerk \u2013 wo Material verwaltet werden muss, hilft Dein Lagerhelfer. Einfach, digital und kostenlos f\u00fcr jeden Handwerksbetrieb.",
     problems: [
       {
         title: "Kein System, das passt",
